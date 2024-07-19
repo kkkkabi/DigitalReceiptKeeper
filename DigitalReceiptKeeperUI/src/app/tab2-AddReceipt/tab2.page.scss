@@ -1,0 +1,18 @@
+// .center-content {
+//     display: flex;
+//     justify-content: center; /* Center horizontally */
+//     align-items: center; /* Center vertically */
+//     height: 100vh; /* Optional: Make sure it covers the full viewport height */
+//   }
+  
+ion-input{
+--background: var(--ion-color-light);
+}
+
+
+.smaller-datetime {
+  ion-datetime {
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 0px; /* Adjust the padding as needed */
+  }
+}

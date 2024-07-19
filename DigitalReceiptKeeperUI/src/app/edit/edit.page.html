@@ -1,0 +1,89 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Edit Receipt</ion-title>
+    <ion-button (click)="navigateBack()" slot="start" fill="clear">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-header collapse="condense" class="ion-no-border" [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title color="white" size="medium">Receipt Detail</ion-title>
+    <ion-button (click)="navigateBack()" slot="start" fill="clear" size="small">
+      <ion-icon name="arrow-back-outline" color="white"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<!--Add QR code section-->
+<ion-content [fullscreen]="true">
+  <p></p>
+      <form #form = "ngForm" (ngSubmit)="updateReceipt()">
+        <ion-list >
+          <ion-item>
+            <ion-input
+              label="Store Name"
+              placeholder="Store Name"
+              [clearInput]="true"
+              type = "text"
+              name = "storeName" [(ngModel)]="ReceiptDetail.storeName"
+            >
+            </ion-input>
+          </ion-item>
+  <p></p>
+            <ion-item>
+              <ion-datetime 
+              showDefaultButtons = "true" 
+              locale="en-AU"
+              id="calendar_receiptDate"
+              name = "receiptDate"
+              [(ngModel)]="ReceiptDetail.receiptDate"
+              
+              ></ion-datetime>
+            </ion-item>
+            <p></p>
+          <ion-item>
+            <ion-input
+              label="Receipt Date:"
+              type = "text"
+              name = "receiptDate" 
+              [value]="formatDate(ReceiptDetail.receiptDate)"
+            >
+            </ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-input
+              label="Amount"
+              type = "text"
+              name = "receiptAmount" [(ngModel)]="ReceiptDetail.receiptAmount"
+              
+            >
+            </ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-input
+              label="Receipt URL"
+              [clearInput]="true"
+              type = "text"
+              name = "receiptFilePath" [(ngModel)]="ReceiptDetail.receiptFilePath"
+            >
+            </ion-input>
+          </ion-item>
+  
+  
+  
+        </ion-list>
+        <ion-row class="ion-justify-content-center">
+          <ion-col size="auto">
+            <ion-button class="btn btn-primary" type="submit" size="medium">Update Receipt</ion-button>
+          </ion-col>
+        </ion-row>
+  
+      </form>
+  
+  
+  </ion-content>
+  

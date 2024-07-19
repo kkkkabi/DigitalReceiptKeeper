@@ -1,0 +1,7 @@
+{
+  "name": "DigitalReceiptKeeperUI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

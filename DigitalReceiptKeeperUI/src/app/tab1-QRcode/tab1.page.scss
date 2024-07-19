@@ -1,0 +1,12 @@
+/* Add this CSS to your global.scss file or a component-specific .scss file */
+
+.qrcodeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically */
+  align-items: center; /* Horizontally */
+  top: 50px;
+  height: 100%;
+  width: 100%;
+}
+

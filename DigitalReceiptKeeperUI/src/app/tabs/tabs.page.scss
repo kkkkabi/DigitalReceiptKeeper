@@ -1,0 +1,30 @@
+ion-tabs {
+    background: var(--ion-color-secondary);
+    ion-tab-bar {
+        bottom: 0; /* Keep the tab bar at the bottom */
+        position: relative;
+        border-radius: 30px;
+        width:100%;
+        padding:0;
+        overflow: hidden;
+        box-shadow: 0px -5px 10px rgb(3 181 170 / 8%);
+        height: 60px;
+        --background: var(--ion-color-light);
+
+        // transform: translate(-50%, -50%);
+        // left: 50%;
+        // padding-bottom: 100;
+        // border: 5px solid rgba(2, 52, 54, 0.08);
+
+        ion-tab-button {
+            --background: var(--ion-color-light);
+            --color: #BEC2C6;
+            ion-icon {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+ion-content {
+    padding-bottom: 60px; /* Adjust the value as needed */
+  }

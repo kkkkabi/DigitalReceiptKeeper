@@ -1,0 +1,66 @@
+<ion-header collapse="condense" class="ion-no-border" translucent="true" >
+    <ion-toolbar color="primary" >
+      <ion-title color="white" size="medium">My QR Code</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content [fullscreen]="true" >
+
+  <!--Show QRcode-->
+<p></p>
+    <ion-row class="ion-justify-content-center">
+        <ion-text class="ion-justify-content-center">{{myQrCodecontent}}</ion-text>
+
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <qrcode class="qrcodeContainer"
+      [elementType]="'img'" 
+      [qrdata]="myQrCodecontent" 
+      [width]="240"
+      [margin]="1"
+      [allowEmptyString]="true"
+      >
+    </qrcode>
+    </ion-row>
+
+
+
+
+<!--Add QR code section-->
+<ion-item lines="inset"></ion-item>
+  <form #form = "ngForm" (ngSubmit)="addQRcode()">
+    <ion-list>
+      <ion-item>
+        <ion-input
+          label="QRcode Name"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Name of your QRcode"
+          type = "text"
+          name = "qrcodename" [(ngModel)]="addqrcodeRequest.qrCodeName"
+        >
+        </ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-input
+          label="Mobile Number:"
+          labelPlacement="stacked"
+          [clearOnEdit]="true"
+          placeholder="04********"
+          type = "text"
+          name = "qrcodecontent" [(ngModel)]="addqrcodeRequest.qrCodeContent"
+        >
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="auto">
+        <ion-button class="btn btn-primary" type="submit" size="medium">Add QRcode</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </form>
+
+</ion-content>
+

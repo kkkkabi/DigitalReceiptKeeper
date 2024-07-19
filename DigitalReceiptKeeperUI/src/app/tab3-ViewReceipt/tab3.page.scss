@@ -1,0 +1,48 @@
+.putCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Vertically */
+    align-items: start; /* Horizontally */
+    top: 50px;
+}
+
+/* In your component's SCSS file */
+.centered-label {
+    display: flex;
+    justify-content: space-around; /* Vertically */
+    align-items: center; /* Horizontally */
+  }
+  
+ion-content {
+    --background: transparent;
+    ion-list {
+        background: transparent;
+        ion-item-sliding {
+            width: 100%;
+            margin: auto;
+            border-radius: 8px;
+            margin-bottom: 0vh;
+        }
+        ion-item {
+            width: 90%;
+            margin: auto;
+            border-radius: 8px;
+            margin-bottom: 0vh;
+            ion-label {
+                font-size: 1.1rem;
+                p {
+                    font-size: 0.85rem;
+                }
+                .tmargin {
+                    margin-top: 0.4vh;
+                }
+                ion-text[slot=end] {
+                    font-size: 1.2em;
+                    span {
+                        font-weight: 450;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uBrcUDme58BRbeN0W8owikgSMF+dTeokSMbaSHYUuiM=",
+  "Source": "DigitalReceiptKeeper",
+  "BasePath": "_content/DigitalReceiptKeeper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,10 @@
+.center-content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Optional: Make sure it covers the full viewport height */
+  }
+  
+ion-input{
+--background: var(--ion-color-light);
+}
