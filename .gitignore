@@ -1,0 +1,13 @@
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/.vs
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper.sln
+
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper/bin
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper/obj
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper/Migrations
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper/DigitalReceiptKeeper.csproj.user
+DigitalReceiptKeeperAPI/DigitalReceiptKeeper/DigitalReceiptKeeper/DigitalReceiptKeeper.csproj.nuget.dgspec.json
+
+DigitalReceiptKeeperUI/.angular
+DigitalReceiptKeeperUI/.vscode
+DigitalReceiptKeeperUI/node_modules
+DigitalReceiptKeeperUI/dist

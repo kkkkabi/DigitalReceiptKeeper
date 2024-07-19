@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6SQ1H38URr9wl+FHq17nMLQ4vCDOat6yISfjP8qpol3fQoh0IJsjnMA4m6/huxUdklDomMj+doDixdnBHaLFtg==",
+  "dgSpecHash": "3I5xVh478Nj0JrN5VrIj2FqsArX26d1eSq0s4+Aq4rpPo8NVyort/8x6XRvVD+nJFzPHxFRT8JhiCHHks6bTow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sinme\\project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
+  "projectFilePath": "C:\\Users\\sinme\\project\\0. completed project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sinme\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\sinme\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

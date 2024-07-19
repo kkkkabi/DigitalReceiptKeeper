@@ -4679,11 +4679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sinme\\project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
+      "projectUniqueName": "C:\\Users\\sinme\\project\\0. completed project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
       "projectName": "DigitalReceiptKeeper",
-      "projectPath": "C:\\Users\\sinme\\project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
+      "projectPath": "C:\\Users\\sinme\\project\\0. completed project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\DigitalReceiptKeeper.csproj",
       "packagesPath": "C:\\Users\\sinme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sinme\\project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\obj\\",
+      "outputPath": "C:\\Users\\sinme\\project\\0. completed project\\DigitalReceiptKeeper\\DigitalReceiptKeeperAPI\\DigitalReceiptKeeper\\DigitalReceiptKeeper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
